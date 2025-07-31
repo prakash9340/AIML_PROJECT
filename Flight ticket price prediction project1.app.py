@@ -6506,14 +6506,7 @@
     "    st.success(f\"Prediction: {prediction}\")\n"
    ]
   },
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "id": "1b95b0f8-9d66-441e-bc51-9dfcb6e96ad3",
-   "metadata": {},
-   "outputs": [],
-   "source": []
-  }
+ 
  ],
  "metadata": {
   "kernelspec": {
