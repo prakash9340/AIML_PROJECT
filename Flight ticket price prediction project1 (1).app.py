@@ -6248,7 +6248,6 @@
    "source": [
     "!jupyter nbconvert --to script \"Flight ticket price prediction project1.ipynb\"\n"
    ]
-  },
   {
  ],
  "metadata": {
