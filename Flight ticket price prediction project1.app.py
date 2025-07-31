@@ -6506,6 +6506,7 @@
     "    st.success(f\"Prediction: {prediction}\")\n"
    ]
   },
+ {
  "metadata": {
   "kernelspec": {
    "display_name": "Python [conda env:base] *",
