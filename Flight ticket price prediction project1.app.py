@@ -6245,6 +6245,7 @@
       "[NbConvertApp] Writing 6886 bytes to Flight ticket price prediction project1.py\n"
      ]
     }
+   }
    ],
    "source": [
     "!jupyter nbconvert --to script \"Flight ticket price prediction project1.ipynb\"\n"
