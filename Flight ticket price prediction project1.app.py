@@ -1,7 +1,7 @@
 {
  "cells": [
   {
-   "cell_type": "code",
+  
    "execution_count": 138,
    "id": "4d896cac-76d0-439d-9ab8-6eaff1599f7b",
    "metadata": {},
