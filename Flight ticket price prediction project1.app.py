@@ -6250,39 +6250,7 @@
     "!jupyter nbconvert --to script \"Flight ticket price prediction project1.ipynb\"\n"
    ]
   },
- [
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "id": "4ee89c35-fec8-4ebc-a1f0-a039477630e2",
-   "metadata": {},
-   "outputs": [],
-   "source": []
-  },
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "id": "127d6068-c59d-458f-a679-bbd38fab37b9",
-   "metadata": {},
-   "outputs": [],
-   "source": []
-  },
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "id": "e82d67da-a168-42ef-81ab-5589e8d4e90b",
-   "metadata": {},
-   "outputs": [],
-   "source": []
-  },
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "id": "a3e3934c-8298-4fba-93af-3023a4199043",
-   "metadata": {},
-   "outputs": [],
-   "source": []
-  }
+
  ],
  "metadata": {
   "kernelspec": {
