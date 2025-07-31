@@ -1,4 +1,3 @@
-
 │
 ├── app.py                👈 Your Streamlit code
 ├── model.pkl             👈 Trained ML model
