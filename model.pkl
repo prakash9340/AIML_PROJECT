@@ -1,0 +1,5 @@
+from sklearn.ensemble import RandomForestRegressor
+
+model_random_forest = RandomForestRegressor(n_estimators = 500, min_samples_split = 3)
+model_random_forest.fit(x_train, y_train)
+pred_rf = model_random_forest.predict(x_test)
