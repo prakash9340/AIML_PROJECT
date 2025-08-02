@@ -1,5 +1,27 @@
-from sklearn.ensemble import RandomForestRegressor
+import streamlit as st
+import joblib
+import numpy as np
 
-model_random_forest = RandomForestRegressor(n_estimators = 500, min_samples_split = 3)
-model_random_forest.fit(x_train, y_train)
-pred_rf = model_random_forest.predict(x_test)
+# Load your saved model
+model = joblib.load("model.pkl")
+
+st.title("Flight Ticket Price Prediction")
+
+# Example input fields (adjust based on your model's features)
+airline = st.selectbox("Airline", ["IndiGo", "Air India", "SpiceJet"])
+source = st.selectbox("Source", ["Delhi", "Kolkata", "Mumbai", "Chennai"])
+destination = st.selectbox("Destination", ["Cochin", "Delhi", "New Delhi", "Hyderabad", "Kolkata"])
+total_stops = st.slider("Total Stops", 0, 4, 1)
+duration = st.number_input("Duration (minutes)")
+days_left = st.number_input("Days Left for Flight")
+
+# Encode inputs properly based on your model preprocessing
+# Here we just concatenate into a NumPy array
+input_data = np.array([[airline, source, destination, total_stops, duration, days_left]])
+
+# Handle button click
+if st.button("Predict Price"):
+    # You might need to process input_data just like training data
+    prediction = model.predict(input_data)
+    st.success(f"Predicted Flight Price: ₹{prediction[0]:.2f}")
+
